@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:layout_height="800dp"
+    tools:context=".MainActivity">
+
+    <com.example.myott11.AnimatedWord
+        android:id="@+id/word1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        custom:delay="100"
+        custom:letter_size="200"
+        custom:text="יוחאי" />
+
+    <com.example.myott11.AnimatedWord
+        android:id="@+id/word2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:translationX="200dp"
+        custom:delay="50"
+        custom:letter_size="100"
+        custom:text="גבים" />
+
+    <com.example.myott11.AnimatedWord
+        android:id="@+id/word3"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:translationX="100dp"
+        custom:delay="250"
+        custom:letter_size="100"
+        custom:text="לא" />
+
+    <com.example.myott11.AnimatedWord
+        android:id="@+id/word4"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:translationX="50dp"
+        custom:delay="100"
+        custom:letter_size="200"
+        custom:text="מרגיש" />
+
+    <com.example.myott11.AnimatedWord
+        android:id="@+id/word5"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:translationX="200dp"
+        custom:delay="500"
+        custom:letter_size="200"
+        custom:text="טוב" />
+</LinearLayout>

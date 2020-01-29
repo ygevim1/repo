@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="AnimatedWord_attributes">
+        <attr name="text" format="string" />
+        <attr name="delay" format="integer" />
+        <attr name="letter_size" format="integer" />
+    </declare-styleable>
+</resources>
